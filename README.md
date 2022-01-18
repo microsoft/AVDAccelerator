@@ -14,9 +14,9 @@ Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering to depl
 
 ## Getting Started
 
-Depending on the if the VM are going to be AAD or On-Prem joined there are differnt prequistes that are needed.
+Depending on the if the VMs are going to be AAD or On-Prem joined there are differnt prerequisites that are needed.
 
-### Prerequistes
+### Prerequisites
 
 #### On-Prem VM Domain Join
 
@@ -24,7 +24,7 @@ Depending on the if the VM are going to be AAD or On-Prem joined there are diffe
 - Connectivity to an On-Prem Domain Controller (Could be an Domain Controller as IAAS).
   - Virtual Network can be created during deployment or specify an existing one if an existing one it has to have the connectivity to the On-Prem domain.
 
-#### Azure Active Directory VN Domain Join
+#### Azure Active Directory VM Domain Join
 
 At this time there are no prerequistes that exist if this is a full AAD deployment.
 
@@ -32,11 +32,11 @@ At this time there are no prerequistes that exist if this is a full AAD deployme
 
 #### Administrator Access to VMs
 
-There is a group created when using the AVD Accelerator, 'sg-{ProjectName}-avdadmin, that assigns Azure role (Virtual Machine Administrator Login) needed to login to the VM and the assignment to the Application Group. This allows these users to login to the VM with Administrator rights.
+There is a group created when using the AVD Accelerator, 'sg-{ProjectName}-avdadmin', that assigns Azure role (Virtual Machine Administrator Login) needed to login to the VM and the assignment to the Application Group. This allows these users to login to the VM with Administrator rights.
 
 #### User Logon Rights to VMs
 
-There is a group created when using the AVD Accelerator, 'sg-{projectName}-avd, that assigns the Azure role (Virtual Machine User Login) needed to login to the VM and the assignment to the Application Group. This allows the users to login to the VMs as a User.
+There is a group created when using the AVD Accelerator, 'sg-{projectName}-avd', that assigns the Azure role (Virtual Machine User Login) needed to login to the VM and the assignment to the Application Group. This allows the users to login to the VMs as a User.
 
 ## Estimated Deployment Times
 
