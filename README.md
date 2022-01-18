@@ -1,33 +1,43 @@
-# Project
+# Azure Virtual Desktop (AVD) Accelerator
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+## Overview
 
-As the maintainer of this project, please make a few updates:
+Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering to deploy AVD to your subscription with a consolidated User Interface (UI) for various deployment scenarios.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+### Features
 
-## Contributing
+- Azure Active Directory (AAD) Virtual Machine (VM) Join
+- On-Prem VM Join
+- Apply STIGs to deployed VMs
+- Simplified VM sizing based on Microsoft documentation
+- AAD Account creation
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## Getting Started
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+Depending on the if the VM are going to be AAD or On-Prem joined there are differnt prequistes that are needed.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+### Prerequistes
 
-## Trademarks
+#### On-Prem VM Domain Join
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+- Accounts that will log into the VMs have to be synced to AAD.
+- Connectivity to an On-Prem Domain Controller (Could be an Domain Controller as IAAS).
+  - Virtual Network can be created during deployment or specify an existing one if an existing one it has to have the connectivity to the On-Prem domain.
+
+#### Azure Active Directory VN Domain Join
+
+At this time there are no prerequistes that exist if this is a full AAD deployment.
+
+### Management and Logon Rights to VMs
+
+#### Administrator Access to VMs
+
+There is a group created when using the AVD Accelerator, 'sg-{ProjectName}-avdadmin, that assigns Azure role (Virtual Machine Administrator Login) needed to login to the VM and the assignment to the Application Group. This allows these users to login to the VM with Administrator rights.
+
+#### User Logon Rights to VMs
+
+There is a group created when using the AVD Accelerator, 'sg-{projectName}-avd, that assigns the Azure role (Virtual Machine User Login) needed to login to the VM and the assignment to the Application Group. This allows the users to login to the VMs as a User.
+
+## Estimated Deployment Times
+
+## Enable CAC Auth to AVD Accelerator Offering
