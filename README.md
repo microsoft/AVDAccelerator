@@ -40,8 +40,8 @@ At this time there are no prerequisites that exist if this is a full AAD deploym
 
 ## Additional Guides
 
-- [Management and Logon Rights to VMs](../AVDAccelerator/articles/ManagementAndLogonRights.md)
-- [Enable CAC Auth to AVD Accelerator Offering](../AVDAccelerator/articles/EnableCacAuth.md)
-- [Using a custom VHD from Hyper-V for VM Image](../AVDAccelerator/articles/CustomVhd.md)
+- [Management and Logon Rights to VMs](../articles/ManagementAndLogonRights.md)
+- [Enable CAC Auth to AVD Accelerator Offering](../articles/EnableCacAuth.md)
+- [Using a custom VHD from Hyper-V for VM Image](../articles/CustomVhd.md)
 
 ## Estimated Deployment Times
