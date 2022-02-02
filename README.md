@@ -8,13 +8,13 @@ Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering to depl
 
 - Azure Active Directory (AAD) Virtual Machine (VM) Join
 - On-Prem VM Join
-- Apply STIGs to deployed VMs
-- Simplified VM sizing based on Microsoft documentation
+- Apply DoD Security Technical Implementation Guides (STIGs) to deployed VMs using [PowerStig](https://github.com/Microsoft/PowerStig)
+- Simplified VM sizing based on [Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs)
 - AAD Account creation
 
 ## Getting Started
 
-Depending on the if the VMs are going to be AAD or On-Prem joined there are differnt prerequisites that are needed.
+Depending on the if the VMs are going to be AAD or On-Prem joined there are different prerequisites that are needed.
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ Depending on the if the VMs are going to be AAD or On-Prem joined there are diff
 
 #### Azure Active Directory VM Domain Join
 
-At this time there are no prerequistes that exist if this is a full AAD deployment.
+At this time there are no prerequisites that exist if this is a full AAD deployment.
 
 ### Management and Logon Rights to VMs
 
@@ -74,7 +74,7 @@ When building an image in Hyper-V the VM you are building the image from has to 
 
 ### References
 
-These are references for building a VHD and ensuring it has the correct sepcifications plus important settings to set in the Windows Operating System.
+These are references for building a VHD and ensuring it has the correct specifications plus important settings to set in the Windows Operating System.
 
 [Prepare and customize a VHD image for Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-customize-master-image)
 
