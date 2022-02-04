@@ -1,33 +1,47 @@
-# Project
+# Azure Virtual Desktop (AVD) Accelerator
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+- [Azure Virtual Desktop (AVD) Accelerator](#azure-virtual-desktop-avd-accelerator)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+      - [On-Prem VM Domain Join](#on-prem-vm-domain-join)
+      - [Azure Active Directory VM Domain Join](#azure-active-directory-vm-domain-join)
+  - [Additional Guides](#additional-guides)
+  - [Estimated Deployment Times](#estimated-deployment-times)
 
-As the maintainer of this project, please make a few updates:
+## Overview
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering to deploy AVD to your subscription with a consolidated User Interface (UI) for various deployment scenarios.
 
-## Contributing
+## Features
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+- Azure Active Directory (AAD) Virtual Machine (VM) Join
+- On-Prem VM Join
+- Apply DoD Security Technical Implementation Guides (STIGs) to deployed VMs using [PowerStig](https://github.com/Microsoft/PowerStig)
+- Simplified VM sizing based on [Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs)
+- AAD Account creation
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Getting Started
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Depending on the if the VMs are going to be AAD or On-Prem joined there are different prerequisites that are needed.
 
-## Trademarks
+### Prerequisites
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+#### On-Prem VM Domain Join
+
+- Accounts that will log into the VMs have to be synced to AAD.
+- Connectivity to an On-Prem Domain Controller (Could be an Domain Controller as IAAS).
+  - Virtual Network can be created during deployment or specify an existing one if an existing one it has to have the connectivity to the On-Prem domain.
+
+#### Azure Active Directory VM Domain Join
+
+At this time there are no prerequisites that exist if this is a full AAD deployment.
+
+## Additional Guides
+
+- [Management and Logon Rights to VMs](articles/ManagementAndLogonRights.md)
+- [Enable CAC Auth to AVD Accelerator Offering](articles/EnableCacAuth.md)
+- [Using a custom VHD from Hyper-V for VM Image](articles/CustomVhd.md)
+
+## Estimated Deployment Times
