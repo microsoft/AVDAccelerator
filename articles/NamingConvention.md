@@ -1,6 +1,6 @@
 # Deployment Naming Convention
 
-{ProjectName} - This is what is specified in the UI for ProjectName.
+{ProjectName} - This is what is specified in the UI for Project Name on the Basics Blade.
 ![Create Users blade](../images/ProjectName.jpg)
 
 Below is the naming convention used for all the resources created.
