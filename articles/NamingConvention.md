@@ -1,4 +1,4 @@
-# Deployment Naming Convention
+# Resource Naming Convention
 
 {ProjectName} - This is what is specified in the UI for Project Name on the Basics Blade.
 ![Create Users blade](../images/ProjectName.jpg)
