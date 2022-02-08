@@ -30,13 +30,13 @@ Depending on the if the VMs are going to be AAD or On-Prem joined there are diff
 
 #### On-Prem VM Domain Join
 
-- Accounts that will log into the VMs have to be synced to AAD.
+- VMs that will utilize on-prem accounts must be synced to Azure Active Directory (AAD).
 - Connectivity to an On-Prem Domain Controller (Could be an Domain Controller as IAAS).
-  - Virtual Network can be created during deployment or specify an existing one if an existing one it has to have the connectivity to the On-Prem domain.
+  - Virtual Network can be created during deployment or specify an existing one. When an existing virtual network is utilized, it must have the connectivity to the On-Prem domain.
 
 #### Azure Active Directory VM Domain Join
 
-At this time there are no prerequisites that exist if this is a full AAD deployment.
+There are no prerequisites for a full AAD deployment.
 
 ## Additional Guides
 
