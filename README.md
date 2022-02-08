@@ -45,5 +45,6 @@ There are no prerequisites for a full AAD deployment.
 - [Using a custom VHD from Hyper-V for VM Image](articles/CustomVhd.md)
 - [Creating Accounts During Deployment](articles/AccountCreation.md)
 - [Resource Naming Convention](articles/NamingConvention.md)
+- [Resources Deployed](articles/DeployedResources)
 
 ## Estimated Deployment Times
