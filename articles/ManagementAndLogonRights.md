@@ -7,3 +7,6 @@ There is a group created when using the AVD Accelerator, 'sg-{ProjectName}-avdad
 ## User Logon Rights to VMs
 
 There is a group created when using the AVD Accelerator, 'sg-{projectName}-avd', that assigns the Azure role (Virtual Machine User Login) needed to login to the VM and the assignment to the Application Group. This allows the users to login to the VMs as a User.
+
+There is an option on the Add Users blade to add all Azure Active Directory Users to this group.
+![Create Users blade](../images/AddUsersBladeDelegate.jpg)
