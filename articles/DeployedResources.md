@@ -17,4 +17,4 @@ Custom Script Extension | 1 | When STIGs are applied |
 Microsoft Powershell DSC | 1 | When STIGs are applied |
 VM Sizing Deployment Script | 1 | |
 Directory Management Deployment Script | 1 | |
-Account Creation Deployment Script | 1 | Azure AD Accounts are created |
+Account Creation Deployment Script | 1 | When Azure AD Accounts are created |
