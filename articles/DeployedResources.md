@@ -7,7 +7,7 @@ The following resources are deployed during the Azure Virtual Desktop Accelerato
 Virtual Machine | Number of VMs Deployed | |
 Network Interface |  Number of VMs Deployed | |
 Disk (OS Disk) |  Number of VMs Deployed | |
-Virtual Network | 1 | If deployment is not On-Prem and an existing one is used |
+Virtual Network | 1 | If Azure Active Directory domain-join is selected |
 Network Security Group | 1 | If deployment is not On-Prem and an existing one is used |
 Host Pool | 1 | |
 Workspace | 1 | |
