@@ -12,7 +12,7 @@
 
 ## Overview
 
-Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering to deploy AVD to your subscription with a consolidated User Interface (UI) for various deployment scenarios.
+Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering that allows you to use your existing subscription to deploy a customized AVD environment. An easy-to-follow setup wizard will guide you through the process to deploy AVD according to your needs.
 
 ## Features
 
@@ -24,19 +24,19 @@ Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering to depl
 
 ## Getting Started
 
-Depending on the if the VMs are going to be AAD or On-Prem joined there are different prerequisites that are needed.
+Prerequisites vary based on whether the VMs are going to be On-Prem or AAD joined.
 
 ### Prerequisites
 
 #### On-Prem VM Domain Join
 
-- VMs that will utilize on-prem accounts must be synced to Azure Active Directory (AAD).
-- Connectivity to an On-Prem Domain Controller (Could be an Domain Controller as IAAS).
-  - Virtual Network can be created during deployment or specify an existing one. When an existing virtual network is utilized, it must have the connectivity to the On-Prem domain.
+- Accounts that will log into the VMs must be synced to Azure Active Directory (AAD).
+- Connectivity to an On-Prem Domain Controller (could be a Domain Controller as IAAS).
+  - A Virtual Network can be created during deployment or an existing one be specified if it has connectivity to the On-Prem domain.
 
 #### Azure Active Directory VM Domain Join
 
-There are no prerequisites for a full AAD deployment.
+For a full AAD deployment, there are no prerequisites at this time.
 
 ## Additional Guides
 
