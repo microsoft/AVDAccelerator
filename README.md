@@ -49,7 +49,7 @@ For a full AAD deployment, there are no prerequisites at this time.
 
 ## Estimated Deployment Times
 
-| Test | Host Pool Sizing | Pooled-Personal | Amount of VMs created | Type of Workload | Image |STIG'd | Duration (mins) |
+| Test | Host Pool Sizing | Pooled-Personal | Amount of VMs created | Type of Workload | Image | STIG'd | Duration (mins) |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 100 | pooled | 4 med | win10 | yes | 37 |
 | 2 | 100 | pooled | 4 med | win10/356 | no | 21 |
