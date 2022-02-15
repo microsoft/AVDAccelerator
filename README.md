@@ -52,21 +52,20 @@ For a full AAD deployment, there are no prerequisites at this time.
 The following table provides example deployment time duration.
 [Host Pool Sizing](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs) calculations and [Type of workload](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads) are based off of general guidance and recommendations.
 
-| Test | Host Pool Sizing | Pooled-Personal | AMT of VMs created | Type of workload | Image | STIGs Applied | Duration (mins) |
-|--|--|--|--|--|--|--|--|
-| 1 | 100 | pooled | 4 |medium | win10 | yes | 37 |
-| 2 | 100 | pooled | 4 | medium | win10/356 | no | 21 |
-| 3 | 250 | pooled | 6 | light | win10 | yes | 35 |
-| 4 | 250 | pooled | 6 | light | win10 | no | 21 |
-| 5 | 500 | pooled | 11 | light | win10/356 | yes | 38 |
-| 6 | 500 | pooled | 11 | light | win10 | no | 19 |
-| 7 | 550 | pooled | 12 | light | win10/365 | yes | 41 |
-| 8 | 550 | pooled | 12 | light | win10 | no | 22 |
-| 9 | 50 | personal | 50 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | yes | 49 |
-| 10 | 50 | personal | 50 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | no | 25 |
-| 11 | 98 | personal | 98 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | yes | 51 |
-| 12 | 98 | personal | 98 | 1x Standard DS1 v2, 1 vcpu | win10 | no | 21 |
+| Host Pool Sizing | Pooled-Personal | AMT of VMs created | Type of workload | Image | STIGs Applied | Duration (mins) |
+|--|--|--|--|--|--|--|
+| 100 | pooled | 4 |medium | win10 | yes | 37 |
+| 100 | pooled | 4 | medium | win10/356 | no | 21 |
+| 250 | pooled | 6 | light | win10 | yes | 35 |
+| 250 | pooled | 6 | light | win10 | no | 21 |
+| 500 | pooled | 11 | light | win10/356 | yes | 38 |
+| 500 | pooled | 11 | light | win10 | no | 19 |
+| 550 | pooled | 12 | light | win10/365 | yes | 41 |
+| 550 | pooled | 12 | light | win10 | no | 22 |
+| 50 | personal | 50 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | yes | 49 |
+| 50 | personal | 50 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | no | 25 |
+| 98 | personal | 98 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | yes | 51 |
+| 98 | personal | 98 | 1x Standard DS1 v2, 1 vcpu | win10 | no | 21 |
 
 Recommend to use simulation tools to test your deployment with both stress tests and real-life usage simulations.
-Make sure your system is responsive and resilient enough to meet your needs. Note - When creating host pools and setting vm size,
-review your subscription [limits](https://docs.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-set-up-issues#error-exceeding-quota-limit).
+Make sure your system is responsive and resilient enough to meet your needs.
