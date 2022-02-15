@@ -48,3 +48,20 @@ For a full AAD deployment, there are no prerequisites at this time.
 - [Resources Deployed](articles/DeployedResources.md)
 
 ## Estimated Deployment Times
+
+The following table provides example deployment time duration. Note that you may run into resource constraints due to subscription limitations. 
+
+| Test | Host Pool Sizing |Pooled-Personal | Amount of VMs created | Type of Workload | Image | STIG'd | Duration (mins)
+--- | --- | --- |--- | --- | --- |--- | 
+| 1 | 100 | pooled | 4	med | win10 | yes | 37 |
+| 2 | 100 | pooled | 4	med | win10/356 | no | 21 |
+| 3 | 250 | pooled | 6	light | win10 | yes | 35 |
+| 4 | 250 | pooled | 6	light | win10 | no | 21 |
+| 5 | 500 | pooled | 11	light | win10/356 | yes | 38 |
+| 6 | 500 | pooled | 11	light | win10 | no | 19 |
+| 7 | 550 | pooled | 12	light | win10/365 | yes | 41 |
+| 8 | 550 | pooled | 12	light | win10 | no | 22 |
+| 9 | 50 | personal | 50 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | yes | 49 |
+| 10 | 50 | personal | 50 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | no | 25 |
+| 11 | 98 | personal | 98 | 1x Standard DS1 v2, 1 vcpu | win10 /365 | yes | 51 |
+| 12 | 98 | personal | 98 | 1x Standard DS1 v2, 1 vcpu | win10 | no | 21 |
