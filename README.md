@@ -46,5 +46,6 @@ For a full AAD deployment, there are no prerequisites at this time.
 - [Creating Accounts During Deployment](articles/AccountCreation.md)
 - [Resource Naming Convention](articles/NamingConvention.md)
 - [Resources Deployed](articles/DeployedResources.md)
+- [Next Steps](articles/NextSteps.md)
 
 ## Estimated Deployment Times
