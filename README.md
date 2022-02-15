@@ -51,7 +51,7 @@ For a full AAD deployment, there are no prerequisites at this time.
 
 The following table provides example deployment time duration. Host Pool Sizing calculations and Type of workload are based on recommendations found @ <https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs> and <https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads>. 
 
-| Test | Host Pool Sizing |Pooled-Personal | Amount of VMs created | Type of Workload | Image | STIG'd | Duration (mins) |
+|Test |Host Pool Sizing |Pooled-Personal |Amount of VMs created |Type of Workload |Image |STIG'd |Duration (mins) |
 --- | --- | --- |--- | --- | --- |--- |
 1 | 100 | pooled | 4 med | win10 | yes | 37 |
 2 | 100 | pooled | 4 med | win10/356 | no | 21 |
