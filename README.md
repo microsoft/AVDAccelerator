@@ -36,7 +36,7 @@ Prerequisites vary based on whether the VMs are going to be On-Prem or AAD joine
 
 #### Azure Active Directory VM Domain Join
 
-For a full AAD deployment, there are no prerequisites at this time.
+For a full AAD deployment, there are No prerequisites at this time.
 
 ## Additional Guides
 
@@ -54,18 +54,18 @@ The following table provides example deployment time duration.
 
 | Number of Concurrent Users | Host Pool Type | Number of Virtual Machines | Workload Type | Image | STIGs Applied | Deployment Time (mins) |
 |--|--|--|--|--|--|--|
-| 100 | pooled | 4 |medium | Windows 10 | yes | 37 |
-| 100 | pooled | 4 | medium | Windows 10/Office 365 | no | 21 |
-| 250 | pooled | 6 | light | Windows 10 | yes | 35 |
-| 250 | pooled | 6 | light | Windows 10 | no | 21 |
-| 500 | pooled | 11 | light | Windows 10/Office 365 | yes | 38 |
-| 500 | pooled | 11 | light | Windows 10 | no | 19 |
-| 550 | pooled | 12 | light | Windows 10/Office 365 | yes | 41 |
-| 550 | pooled | 12 | light | Windows 10 | no | 22 |
-| 50 | personal | 50 | Standard DS1 v2 | Windows 10 /Office 365 | yes | 49 |
-| 50 | personal | 50 | Standard DS1 v2 | Windows 10 /Office 365 | no | 25 |
-| 98 | personal | 98 | Standard DS1 v2 | Windows 10 /Office 365 | yes | 51 |
-| 98 | personal | 98 | Standard DS1 v2 | Windows 10 | no | 21 |
+| 100 | Pooled | 4 |Medium | Windows 10 | Yes | 37 |
+| 100 | Pooled | 4 | Medium | Windows 10/Office 365 | No | 21 |
+| 250 | Pooled | 6 | Light | Windows 10 | Yes | 35 |
+| 250 | Pooled | 6 | Light | Windows 10 | No | 21 |
+| 500 | Pooled | 11 | Light | Windows 10/Office 365 | Yes | 38 |
+| 500 | Pooled | 11 | Light | Windows 10 | No | 19 |
+| 550 | Pooled | 12 | Light | Windows 10/Office 365 | Yes | 41 |
+| 550 | Pooled | 12 | Light | Windows 10 | No | 22 |
+| 50 | Personal | 50 | Standard DS1 v2 | Windows 10 /Office 365 | Yes | 49 |
+| 50 | Personal | 50 | Standard DS1 v2 | Windows 10 /Office 365 | No | 25 |
+| 98 | Personal | 98 | Standard DS1 v2 | Windows 10 /Office 365 | Yes | 51 |
+| 98 | Personal | 98 | Standard DS1 v2 | Windows 10 | No | 21 |
 
 Recommend to use simulation tools to test your deployment with both stress tests and real-life usage simulations.
 Make sure your system is responsive and resilient enough to meet your needs.
