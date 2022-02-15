@@ -36,7 +36,7 @@ Prerequisites vary based on whether the VMs are going to be On-Prem or AAD joine
 
 #### Azure Active Directory VM Domain Join
 
-For a full AAD deployment, there are No prerequisites at this time.
+For a full AAD deployment, there are no prerequisites at this time.
 
 ## Additional Guides
 
