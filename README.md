@@ -14,6 +14,8 @@
 
 Azure Virtual Desktop (AVD) Accelerator is an Azure Marketplace offering that allows you to use your existing subscription to deploy a customized AVD environment. An easy-to-follow setup wizard will guide you through the process to deploy AVD according to your needs.
 
+AVD Accelerator can be found in [Azure Cloud](https://portal.azure.com/#create/microsoftcorporation1637172498458.avd-acceleratoravd-accelerator-plan) and [Azure US Government](https://portal.azure.us/#create/microsoftcorporation1637172498458.avd-acceleratoravd-accelerator-plan) environments.
+
 ## Features
 
 - Azure Active Directory (AAD) Virtual Machine (VM) Join
