@@ -49,3 +49,24 @@ For a full AAD deployment, there are no prerequisites at this time.
 - [Next Steps](articles/NextSteps.md)
 
 ## Estimated Deployment Times
+
+The following table provides example deployment time duration.
+[Host Pool Sizing](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs) calculations and [Type of workload](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads) are based off of general guidance and recommendations.
+
+| Number of Concurrent Users | Host Pool Type | Number of Virtual Machines | Workload Type | Image | STIGs Applied | Deployment Time (mins) |
+|--|--|--|--|--|--|--|
+| 100 | Pooled | 4 |Medium | Windows 10 | Yes | 37 |
+| 100 | Pooled | 4 | Medium | Windows 10/Office 365 | No | 21 |
+| 250 | Pooled | 6 | Light | Windows 10 | Yes | 35 |
+| 250 | Pooled | 6 | Light | Windows 10 | No | 21 |
+| 500 | Pooled | 11 | Light | Windows 10/Office 365 | Yes | 38 |
+| 500 | Pooled | 11 | Light | Windows 10 | No | 19 |
+| 550 | Pooled | 12 | Light | Windows 10/Office 365 | Yes | 41 |
+| 550 | Pooled | 12 | Light | Windows 10 | No | 22 |
+| 50 | Personal | 50 | Standard DS1 v2 | Windows 10 /Office 365 | Yes | 49 |
+| 50 | Personal | 50 | Standard DS1 v2 | Windows 10 /Office 365 | No | 25 |
+| 98 | Personal | 98 | Standard DS1 v2 | Windows 10 /Office 365 | Yes | 51 |
+| 98 | Personal | 98 | Standard DS1 v2 | Windows 10 | No | 21 |
+
+Recommend to use simulation tools to test your deployment with both stress tests and real-life usage simulations.
+Make sure your system is responsive and resilient enough to meet your needs.
